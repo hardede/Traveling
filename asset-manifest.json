@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/traveling/static/css/main.93dccfa8.css",
-    "main.js": "/traveling/static/js/main.6dd82fd3.js",
+    "main.js": "/traveling/static/js/main.6e0a2696.js",
     "static/media/bg_download.png": "/traveling/static/media/bg_download.919fb0762921340cf569.png",
     "static/media/hero_bg.png": "/traveling/static/media/hero_bg.eb0cb1be9e328d73703b.png",
     "static/media/lighthouse.png": "/traveling/static/media/lighthouse.9f0ec9ac1d3a4ceca78c.png",
@@ -39,10 +39,10 @@
     "static/media/details1.svg": "/traveling/static/media/details1.6445ba999786c54262e978ce27adc667.svg",
     "static/media/cart.svg": "/traveling/static/media/cart.d08cc70a4460022c674063eba3fae5f1.svg",
     "main.93dccfa8.css.map": "/traveling/static/css/main.93dccfa8.css.map",
-    "main.6dd82fd3.js.map": "/traveling/static/js/main.6dd82fd3.js.map"
+    "main.6e0a2696.js.map": "/traveling/static/js/main.6e0a2696.js.map"
   },
   "entrypoints": [
     "static/css/main.93dccfa8.css",
-    "static/js/main.6dd82fd3.js"
+    "static/js/main.6e0a2696.js"
   ]
 }
