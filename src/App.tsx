@@ -1,6 +1,6 @@
 import { observer } from "mobx-react-lite";
 import React, { FC, useContext, useEffect, useState } from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, HashRouter } from "react-router-dom";
 import { AppContext } from "./components/AppContext";
 import AppRouter from "./components/AppRouter";
 import { toursList } from "./components/Tour/constants/toursList";
@@ -116,13 +116,13 @@ const App: FC = () => {
         isItemAddFav,
       }}
     >
-      <Router>
+      <HashRouter>
         <h1 className="bg-red-300 text-center">
           {store.isAuth &&
             (store.user.isActivated ? "" : "Verify your account!!!")}
         </h1>
         <AppRouter />
-      </Router>
+      </HashRouter>
     </AppContext.Provider>
   );
 };
